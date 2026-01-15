@@ -2,7 +2,8 @@ const mongoose = require("mongoose");
 const DEFAULT_ADMIN = require("../controllers/authController")
 
 const connectDB = async () => {
-  const LIVE_URL = "mongodb+srv://slemach:Slemach-321@cluster0.pnqsz.mongodb.net/?appName=Cluster0"
+  // const LIVE_URL = "mongodb+srv://slemach:Slemach-321@cluster0.pnqsz.mongodb.net/?appName=Cluster0"
+  const LIVE_URL = "mongodb+srv:////sowmya:Sowmya%401234@loginschema.6wuwv.mongodb.net/?appName=LogInSchema"
   // const LIVE_URL = "mongodb+srv://sowmya:Sowmya%401234@loginschema.6wuwv.mongodb.net/?retryWrites=true&w=majority&appName=LogInSchema"
 
   try {
