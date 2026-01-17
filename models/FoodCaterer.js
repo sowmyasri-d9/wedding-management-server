@@ -9,4 +9,5 @@ const FoodCatererSchema = new mongoose.Schema({
   price: { type: Number, default: 0.00 }
 });
 
+
 module.exports = mongoose.model("FoodCaterer", FoodCatererSchema);
