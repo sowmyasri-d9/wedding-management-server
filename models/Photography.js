@@ -6,6 +6,7 @@ const PhotographySchema = new mongoose.Schema({
   category: { type: String, required: true }, // Indian, American, etc.
   image_url: { type: String, required: true },
   description: { type: String, default: "Cool ambiance."},
+  pricePerHour: { type: Number, default: 0.00 },
   createdAt: { type: Date, default: Date.now },
 });
 
